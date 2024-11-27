@@ -1,0 +1,71 @@
+// Catpuccin theme
+$base: #1e1e2e;
+$text: #cdd6f4;
+$blue: #89b4fa;
+$lavender: #b4befe;
+$rosewater: #f5e0dc;
+$saphire: #74c7ec;
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Courier New", "Helvetica", sans-serif;
+}
+
+header {
+  padding-top: 35px;
+  padding-bottom: 20px;
+  border-bottom: solid;
+}
+
+.blinking {
+  animation: blink 1.5s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.padded {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+body {
+  color: $text;
+  background-color: $base;
+}
+
+h1, h2, strong {
+  color: $blue;
+  font-weight: 500;
+}
+
+h3, h4 {
+  color: $lavender;
+}
+
+b {
+  color: $blue;
+}
+
+a {
+  color: $blue;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color:  $saphire; 
+}
+
+// Hide underlined in header
+h1 a, h2 a, h3 a, h4 a {
+  text-decoration: none;
+}
+
+

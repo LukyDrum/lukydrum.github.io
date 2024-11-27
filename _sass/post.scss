@@ -1,0 +1,39 @@
+.post-info {
+  padding-bottom: 30px;
+}
+
+.post-content {
+  line-height: 35px;
+  padding-bottom: 50px;
+}
+
+.post-content p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.post-excerpt {
+  padding-top: 10px;
+}
+
+.post-outline-container {
+  position: sticky;
+  top: 100px;
+}
+
+$outline-width: 300px;
+.post-outline {
+  float: right;
+  width: $outline-width;
+  margin-right: -$outline-width - 60px;
+}
+
+@media (max-width: $page-width + $outline-width * 2) {
+  .post-outline {
+    display: none;
+  }
+}
+
+.outline-item.active {
+  font-weight: bold;
+}

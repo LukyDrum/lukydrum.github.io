@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h2>Articles</h2>
+
+{% for post in site.posts %}
+<div class="padded post-preview">
+  <h3>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </h3>
+  <span>{{ post.date | date: "%d %b, %Y" }}; ~ {{ post.read_time }} min</span>
+  <p class="post-excerpt">
+  {{ post.excerpt }}
+  <a href="{{ post.url }}">Read more...</a>
+  </p>
+  </div>
+{% endfor %}
