@@ -2,13 +2,13 @@
 layout: default
 ---
 
-<h2>Articles</h2>
+<h1>Articles</h1>
 
 {% for post in site.posts %}
 <div class="padded post-preview">
-  <h3>
+  <h2>
     <a href="{{ post.url }}">{{ post.title }}</a>
-  </h3>
+  </h2>
   <span>{{ post.date | date: "%d %b, %Y" }}; ~ {{ post.read_time }} min</span>
   <p class="post-excerpt">
   {{ post.excerpt }}
