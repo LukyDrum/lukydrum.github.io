@@ -36,6 +36,21 @@ header {
   }
 }
 
+.header-socials {
+  float: right;
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+.socials-logo {
+  width: 2em;
+  transition: filter 0.3s ease;
+}
+
+.socials-logo:hover {
+  filter: drop-shadow(0px 0px 5px $saphire);
+}
+
 .padded {
   padding-top: 30px;
   padding-bottom: 30px;
