@@ -13,7 +13,7 @@ html {
 footer {
   padding-top: 20px;
   padding-bottom: 35px;
-  border-top: solid;
+  border-top: solid $text;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 header {
   padding-top: 35px;
   padding-bottom: 20px;
-  border-bottom: solid;
+  border-bottom: solid $text;
 }
 
 .blinking {
