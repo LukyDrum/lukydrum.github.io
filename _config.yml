@@ -12,8 +12,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-
-
 highlighter: rouge
 markdown: kramdown
 kramdown:
